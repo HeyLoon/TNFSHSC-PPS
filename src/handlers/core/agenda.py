@@ -17,7 +17,7 @@ class AgendaManageHandler(RequestHandler):
         agenda = [
             {
                 "type": "text",
-                "name": "主席致詞"
+                "name": "開會"
             },
             {
                 "type": "text",
@@ -135,8 +135,6 @@ class AgendaManageHandler(RequestHandler):
                     }
                 ]
             },
-            {"type": "text",
-             "name": "主席結語"},
             {"type": "text",
              "name": "散會"}
         ]
